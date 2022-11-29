@@ -1,4 +1,3 @@
-#!/usr/bin/python3
 from flask import Flask, jsonify, request
 
 app = Flask(__name__)
@@ -17,4 +16,3 @@ def ReturnJSON():
 
 if __name__ == '__main__':
     app.run(debug=True)
-~                                           
